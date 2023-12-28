@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form creation</title>
+  </head>
+  <body>
+    <form action="/action.php">
+      <div>
+        <label for="username">Username:</label>
+        <input
+          type="password"
+          id="username"
+          placeholder="Enter username"
+          name="query"
+        />
+      </div>
+      <div>
+        <label for="pass">Password:</label>
+        <input
+          type="password"
+          id="pass"
+          placeholder="Enter password"
+          name="pass"
+        />
+      </div>
+      <button>Submit</button>
+    </form>
+    <hr />
+    <form action="https://www.youtube.com/results?search_query=apple">
+      <input type="text" placeholder="search in youtube" name="search_query" />
+      <button>search</button>
+    </form>
+    <br />
+    <form action="https://www.google.co.in/">
+      <input type="text" name="q" placeholder="search in google" />
+      <button>search</button>
+    </form>
+    <form action="/server">
+      <input type="checkbox" id="age" name="age" />
+      <label for="age">I am 18+</label>
+      <button>submit</button>
+      <div>
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango" />
+        <label for="apple">mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana" />
+        <label for="apple">banana</label>
+      </div>
+      <button>submit</button>
+      <div>
+        Choose your subjects:
+        <input type="checkbox" id="math" name="subjects" value="math" />
+        <label for="math">math</label>
+        <input type="checkbox" id="science" name="subjects" value="science" />
+        <label for="science">math</label>
+        <input type="checkbox" id="english" name="subjects" value="english" />
+        <label for="english">math</label>
+      </div>
+      <button>submit</button>
+      <hr />
+      <div>
+        Choose your profession:
+        <select name="profession" id="profession">
+          <option value="">Select your option</option>
+          <option value="stu" selected>Student</option>
+          <option value="dev">Developer</option>
+        </select>
+      </div>
+      <label for="vol">Select your volume level:</label>
+      <input
+        type="range"
+        id="vol"
+        min="0"
+        max="100"
+        name="vol"
+        step="10"
+        value="70"
+      />
+      <br>
+      <label for="feedback">Please give your valuable feedback:</label>
+      <textarea name="feedback" id="feedback" placeholder="Type your feedback here" cols="30" rows="10"></textarea>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
