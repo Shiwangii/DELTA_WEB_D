@@ -1,0 +1,29 @@
+h1{
+text-align: center;
+letter-spacing: 50px;
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+text-decoration:red wavy underline;
+/* border: solid;
+width: 50; */
+}
+h3{
+      text-align: right;
+      text-decoration: pink dashed line-through;
+}
+p{
+    color: black;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: 700;
+    font-size: 19px;
+    
+}
+h2{
+    font-weight: 800;
+    text-decoration: overline blue double;
+    font-family: Impact;
+}
+a{
+    text-decoration: none;
+}
