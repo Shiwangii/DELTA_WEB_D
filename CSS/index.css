@@ -1,3 +1,6 @@
+h3{
+    background-color: antiquewhite !important;
+}
 *{
     font-family: Courier New;
 }
@@ -16,4 +19,80 @@ h1,h3{
 }
 .upvote{
     background-color: green;
+}
+/* descendent selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li,a{
+    color: hotpink;
+}
+p+h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: blue;
+    color: aqua;
+
+}
+div > input{
+    background-color: darksalmon;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+div[id="myId"] p{
+    color: green;
+}
+/* #myId p{
+    color: green;
+
+} */
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* specificity */
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    color: green;
+    font-weight:bold;
+
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+
+}
+div:nth-of-type(1n){
+    background-color:blanchedalmond ;
+}
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: rgb(196, 196, 71);
+}
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
 }

@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: red;
     background-color: black;
 }
@@ -10,3 +10,11 @@ button{
     color: green ;
     background-color: aqua;
 }
+/* descendent selector*/
+/* p{
+    color: purple;
+    background-color: yellow;
+}  */ */
+/* div{
+    background-color: blue;
+} */
