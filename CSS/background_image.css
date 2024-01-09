@@ -3,5 +3,7 @@ div{
     height: 300px;
     background-color: #7aa874;
     margin: 10px auto;
-    background-image: url(C:\Users\91638\Documents\GitHub\DELTA_WEB_D\Images\Iron_man.webp);
+    background-size: cover;
+    color: white;
+    background-image: url('../Images/Iron_man.webp');
 }
