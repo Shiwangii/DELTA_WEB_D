@@ -63,3 +63,12 @@ console.log("a / b = ", u/b);
 console.log("a * b = ", u*b); 
 console.log("a % b = ", u%b); 
 console.log("a ** b = ", u**b); 
+
+//Unary operators
+// let n=5;
+// let m=2;
+// console.log("n =", n, " & m = ", m);
+// n++;
+// console.log("n = ", n);
+
+
